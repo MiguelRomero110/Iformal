@@ -82,6 +82,8 @@ body{
 footer{
     background-color: var(--main-color);
     margin-top: 20px;
+    position: relative;
+    bottom: 100%;
 } 
 
 .footer3 a{
