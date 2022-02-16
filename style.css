@@ -13,12 +13,12 @@ Text Domain: iformal
 */
 
 :root{
-    --main-color:rgb(226, 112, 5);
-    --background-body:rgb(243, 182, 124);
-    --text-color:rgb(53, 19, 4);
-    --text-color-active:rgb(141, 70, 40);
+    --main-color:rgb(0, 0, 0);
+    --background-body:rgb(255, 255, 255);
+    --text-color:rgb(255, 255, 0);
+    --text-color-active:rgb(255, 255, 255);
     --text-color-hover:rgb(247, 161, 82);
-    --background-color-hover:rgb(39, 13, 1);
+    --background-color-hover:rgb(255, 255, 255);
     --text-light-color:rgb(247,161,82); 
 }
 
@@ -39,7 +39,7 @@ body{
 }
 
 .dropdown-menu{
-    background-color: var(--main-color);
+    background-color: var(--background-color-hover);
 }
 
 .dropdown-menu a:hover{
@@ -52,25 +52,25 @@ body{
 }
 
 .jumbo-tienda{
-    background-image: url(inc/img/logo_puta.png);
+    background-image: url(inc/img/logo1.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .jumbo-jeans{
-    background-image: url(inc/img/logo_puta_2.png);
+    background-image: url(inc/img/logo2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jumbo-samarreta{
-    background-image: url(inc/img/logo_puta_2.png);
+    background-image: url(inc/img/logo2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jumbo-font{
-    background-image: url(inc/img/logo_puta.png);
+    background-image: url(inc/img/logo1.png);
     background-position: center;
     background-repeat: no-repeat;
 }

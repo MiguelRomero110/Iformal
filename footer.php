@@ -8,7 +8,7 @@
             <div class="col-md-3 footer3">
             <?php
     wp_nav_menu( array(
-      'theme_location'  => 'ifromal_footer_interno',
+      'theme_location'  => 'iformal_footer_interno',
   ) );
     ?>
             </div>
