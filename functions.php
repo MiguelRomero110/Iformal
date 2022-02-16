@@ -2,7 +2,7 @@
 //cargamos librerias de terceros
 require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 
-function infobasic_config(){
+function iformal_config(){
 
     register_nav_menus(  
         array(
