@@ -6,29 +6,13 @@
                 <a href="home">Tienda</a>
             </div>
             <div class="col-md-3 footer3">
-            <?php
-<<<<<<< HEAD
-                wp_nav_menu( array(
-                    'theme_location'  => 'infobasic_footer_interno',
-                ) );
-            ?>
-=======
-    wp_nav_menu( array(
-      'theme_location'  => 'ifromal_footer_interno',
-  ) );
-    ?>
->>>>>>> miguel
-            </div>
-            <div class="col-md-3 footer3">
-            <?php
-    wp_nav_menu( array(
-      'theme_location'  => 'iformal_footer_externo',
-   ) );
-    ?>
+                <?php
+                    wp_nav_menu( array(
+                        'theme_location'  => 'infobasic_footer_interno',
+                    ) );
+                ?>
             </div>
         </div>
-    </div>
-    <div>
     </div>
 </footer>
 <script src="https://kit.fontawesome.com/f40d12f917.js" crossorigin="anonymous"></script>

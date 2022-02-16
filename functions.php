@@ -7,8 +7,7 @@ function iformal_config(){
     register_nav_menus(  
         array(
             'iformal_main_menu' => 'iformal menú principal',
-            'iformal_footer_interno' => 'ifromal menú footer interno',
-            'iformal_footer_externo' => 'iformal menú footer externo',
+            'iformal_footer_interno' => 'ifromal menú footer interno'
         )
     );
 
