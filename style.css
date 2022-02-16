@@ -13,41 +13,41 @@ Text Domain: iformal
 */
 
 :root{
-    --main-color:rgb(0, 0, 0);
-    --background-body:rgb(255, 255, 255);
-    --text-color:rgb(255, 255, 0);
-    --text-color-active:rgb(255, 255, 255);
-    --text-color-hover:rgb(247, 161, 82);
-    --background-color-hover:rgb(255, 255, 255);
-    --text-light-color:rgb(247,161,82); 
+    --negro:rgb(0, 0, 0);
+    --blanco:rgb(255, 255, 255);
+    --amarillo:rgb(255, 255, 0);
 }
 
 body{
-    background-color: var(--background-body);
+    background-color: var(--blanco);
 }
 
 .navbar{
-    background-color: var(--main-color);
+    background-color: var(--negro);
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: var(--text-color);
+    color: var(--blanco);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--amarillo);
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    color: var(--text-color-active);
+    color: var(--blanco);
 }
 
 .dropdown-menu{
-    background-color: var(--background-color-hover);
+    background-color: var(--negro);
 }
 
 .dropdown-menu a:hover{
-    background-color: var(--text-color-hover);
+    background-color: var(--amarillo);
 }
 
 .jumbotron{
-    color: var(--text-light-color);
+    color: var(--negro);
     height: 400px;
 }
 
@@ -80,13 +80,17 @@ body{
 }
 
 footer{
-    background-color: var(--main-color);
+    background-color: var(--negro);
     margin-top: 20px;
 } 
 
 .footer3 a{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--blanco);
+}
+.footer3 a:hover{
+    text-decoration: none;
+    color: var(--amarillo);
 }
 
 .footer3 ul{
@@ -95,6 +99,19 @@ footer{
 
 .footer6 a{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--blanco);
 }
 
+.footer6 a:hover{
+    text-decoration: none;
+    color: var(--amarillo);
+}
+
+h7{
+    color: var(--blanco);
+}
+
+p{
+    color: var(--blanco
+    );
+}
