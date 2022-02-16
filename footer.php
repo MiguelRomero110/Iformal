@@ -7,15 +7,22 @@
             </div>
             <div class="col-md-3 footer3">
             <?php
+<<<<<<< HEAD
                 wp_nav_menu( array(
                     'theme_location'  => 'infobasic_footer_interno',
                 ) );
             ?>
+=======
+    wp_nav_menu( array(
+      'theme_location'  => 'ifromal_footer_interno',
+  ) );
+    ?>
+>>>>>>> miguel
             </div>
             <div class="col-md-3 footer3">
             <?php
     wp_nav_menu( array(
-      'theme_location'  => 'infobasic_footer_externo',
+      'theme_location'  => 'iformal_footer_externo',
    ) );
     ?>
             </div>

@@ -10,7 +10,7 @@
   <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
   <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
     <?php wp_head();?>
-    <title>Bienvenidos a mi web</title>
+    <title>Bienvenidos a iformal</title>
 </head>
 <body <?php body_class()?>>
 
@@ -29,7 +29,7 @@
   </button>
     <?php
     wp_nav_menu( array(
-      'theme_location'  => 'infobasic_main_menu',
+      'theme_location'  => 'iformal_main_menu',
       'depth'           => 3,
       'container'       => 'div',
       'container_class' => 'collapse navbar-collapse',
