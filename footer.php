@@ -7,10 +7,10 @@
             </div>
             <div class="col-md-3 footer3">
             <?php
-    wp_nav_menu( array(
-      'theme_location'  => 'infobasic_footer_interno',
-  ) );
-    ?>
+                wp_nav_menu( array(
+                    'theme_location'  => 'infobasic_footer_interno',
+                ) );
+            ?>
             </div>
             <div class="col-md-3 footer3">
             <?php
