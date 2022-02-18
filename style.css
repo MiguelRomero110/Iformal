@@ -100,3 +100,7 @@ footer{
     color: var(--text-color);
 }
 
+.centro{
+    position: relative;
+    align-content: center;
+}
