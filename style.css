@@ -100,7 +100,23 @@ footer{
     color: var(--text-color);
 }
 
+.container2{
+    margin-bottom: 25px;
+}
+
 .centro{
-    position: relative;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.boton{
+    border-color: black;
+    background-color: rgb(56, 53, 53);
+}
+
+.boton:hover{
+    border-color: black;
+    background-color: yellow;
+    color: black;
 }
