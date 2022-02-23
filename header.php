@@ -16,7 +16,7 @@
 
 <div class="cabecera">
 <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="/">Inici</a>
+    <a class="navbar-brand" href="/"></a>
 
   <button class="navbar-toggler" 
           type="button" 
