@@ -17,5 +17,4 @@
 <script src="https://kit.fontawesome.com/f40d12f917.js" crossorigin="anonymous"></script>
 <?php wp_footer();?>
 </body>
-
-</head>
+</html>
