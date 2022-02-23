@@ -12,16 +12,20 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: iformal
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+
 :root{
     --negro:rgb(0, 0, 0);
     --blanco:rgb(255, 255, 255);
     --amarillo:rgb(255, 255, 0);
     --gris:#e9ecef;
     --gris-card:#b5b5b5;
+    --letra: ;
 }
 
 body{
     background-color: var(--gris);
+    font-family: 'Alegreya', serif;
 }
 
 .navbar{
