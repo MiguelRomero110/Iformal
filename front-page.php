@@ -9,7 +9,7 @@
 <div class="container">
     <div class="centro">
         <div class="card" align="center">
-        <img src="<?=get_theme_file_uri("inc/img/logo_2.png")?>" class="card-img-top" alt="...">
+        <img src="<?=get_theme_file_uri("/inc/img/card-novedades.jpg")?>" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Novedades</h5>
                 <p class="card-text">Si le das click aquí podrás ver nuestras novedades 😉</p>
@@ -20,19 +20,19 @@
 </div>
 <div class="container2">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
             <div class="card">
-                <img src="<?=get_theme_file_uri("inc/img/logo_2.png")?>" class="card-img-top" alt="...">
+                <img src="<?=get_theme_file_uri("/inc/img/card_ropa.jpg")?>" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Productos</h5>
+                    <h5 class="card-title">Tienda</h5>
                     <p class="card-text">Seguro que te van a gustar nuestras prendas 🥰</p>
-                    <a href="<?=site_url("productos")?>" class="btn btn-primary boton">Ropita</a>
+                    <a href="<?=site_url("tienda")?>" class="btn btn-primary boton">Ropita</a>
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
             <div class="card">
-                <img src="<?=get_theme_file_uri("inc/img/logo_2.png")?>" class="card-img-top" alt="...">
+                <img src="<?=get_theme_file_uri("/inc/img/promotor-juan.png")?>" class="card-img-top foto" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Promotores</h5>
                     <p class="card-text">Esta preciosura de gente nos ayuda 😄</p>
@@ -40,33 +40,9 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="container3">
-    <div class="row">
-    <div class="col-md-4">
-            <div class="card">
-                <img src="<?=get_theme_file_uri("inc/img/logo_2.png")?>" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Tecnología</h5>
-                    <p class="card-text">Aquí podreis comparar recambios y darle algo más de estilo a vuestra ropa 🤙</p>
-                    <a href="<?=site_url("productos")?>" class="btn btn-primary boton">Tecno</a>
-                </div>
-            </div>
-        </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="<?=get_theme_file_uri("inc/img/logo_2.png")?>" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Tecnoropa</h5>
-                    <p class="card-text">Seguro que te van a gustar nuestras prendas más tecno 🦾</p>
-                    <a href="<?=site_url("productos")?>" class="btn btn-primary boton">Ropita</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="<?=get_theme_file_uri("inc/img/logo_2.png")?>" class="card-img-top" alt="...">
+                <img src="<?=get_theme_file_uri("inc/img/logo1.png")?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Sobre nosotros</h5>
                     <p class="card-text">Seria un poquito de info sobre qué hacemos, como, etc. 🤔</p>
