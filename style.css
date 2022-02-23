@@ -46,6 +46,11 @@ body{
     background-color: var(--amarillo);
 }
 
+.dropdown-menu a{
+    color: var(--blanco);
+}
+
+
 .jumbotron{
     color: var(--negro);
     height: 400px;

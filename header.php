@@ -10,7 +10,7 @@
   <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
   <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
     <?php wp_head();?>
-    <title>Bienvenidos a iformal</title>
+    <title>Iformal</title>
 </head>
 <body <?php body_class()?>>
 
