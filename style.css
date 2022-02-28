@@ -158,3 +158,29 @@ p{
 .color{
     background-color: var(--gris-card);
 }
+
+.container-front{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .55s ease-in-out;
+}
+
+.img-card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+}
+
+.card-bien{
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .55s ease-in-out;
+    padding: 10px;
+}
+
+.jumbo-link:hover{
+    text-decoration: none;
+}

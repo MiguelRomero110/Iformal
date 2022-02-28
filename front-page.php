@@ -6,7 +6,7 @@
     <img src="<?=get_theme_file_uri("/inc/img/logo2.png")?>" class="jumbo-img">
 </div>
 
-<div class="container">
+<div class="container-front">
         <hr/>
     <div>
         <div class="card" align="center">
@@ -22,8 +22,8 @@
 <div class="container2">
     <div class="row">
         <div class="col-md-4">
-            <div class="card">
-                <img src="<?=get_theme_file_uri("/inc/img/card_ropa.jpg")?>" class="card-img-top" alt="...">
+            <div class="card card-bien">
+                <img src="<?=get_theme_file_uri("/inc/img/card_ropa.jpg")?>" class="card-img-top img-card" alt="...">
                 <div class="card-body color">
                     <h5 class="card-title">Tienda</h5>
                     <p class="card-text">Seguro que te van a gustar nuestras prendas 🥰</p>
@@ -32,8 +32,8 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card" align="center">
-                <img src="<?=get_theme_file_uri("/inc/img/promotor-juan.png")?>" class="card-img-top" alt="...">
+            <div class="card card-bien" align="center">
+                <img src="<?=get_theme_file_uri("/inc/img/promotor-juan.png")?>" class="card-img-top img-card" alt="...">
                 <div class="card-body color">
                     <h5 class="card-title">Promotores</h5>
                     <p class="card-text">Esta preciosura de gente nos ayuda 😄</p>
@@ -42,8 +42,8 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card" align="right">
-                <img src="<?=get_theme_file_uri("inc/img/logo1.png")?>" class="card-img-top" alt="...">
+            <div class="card card-bien" align="right">
+                <img src="<?=get_theme_file_uri("inc/img/logo1.png")?>" class="card-img-top img-card" alt="...">
                 <div class="card-body color">
                     <h5 class="card-title">Sobre nosotros</h5>
                     <p class="card-text">Seria un poquito de info sobre qué hacemos, como, etc. 🤔</p>
