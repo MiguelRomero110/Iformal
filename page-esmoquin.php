@@ -1,7 +1,7 @@
 <?php
     get_header();
 ?>
-    <a href="/" class="jumbo-link">
+    <a href="tienda" class="jumbo-link">
         <div class="jumbotron jumbo-tienda">
             <h1>Tus esmoquins</h1>
         </div>
