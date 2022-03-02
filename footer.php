@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 footer6">
-                <p>Ir al inicio</p>
+                <p class="footer-p">Ir al inicio</p>
                 <a href="/">Inicio</a>
             </div>
             <div class="col-md-3 footer3">

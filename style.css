@@ -116,7 +116,7 @@ h7{
     color: var(--blanco);
 }
 
-p{
+.footer-p{
     color: var(--blanco
     );
 }
@@ -131,4 +131,8 @@ p{
 
 .card-text{
     color: var(--negro);
+}
+
+.card-img-top{
+    height: 261px;
 }
