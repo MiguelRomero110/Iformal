@@ -23,7 +23,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card card-bien">
-                <img src="<?=get_theme_file_uri("/inc/img/card_ropa.jpg")?>" class="card-img-top img-card" alt="...">
+                <img src="<?=get_theme_file_uri("/inc/img/card-ropa.jpg")?>" class="card-img-top img-card" alt="...">
                 <div class="card-body color">
                     <h5 class="card-title">Tienda</h5>
                     <p class="card-text">Seguro que te van a gustar nuestras prendas 🥰</p>

@@ -184,3 +184,10 @@ p{
 .jumbo-link:hover{
     text-decoration: none;
 }
+
+.img-card-prod{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
