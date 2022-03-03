@@ -136,3 +136,67 @@ h7{
 .card-img-top{
     height: 261px;
 }
+
+.container2{
+    margin-bottom: 25px;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.boton{
+    border-color: var(--negro);
+    background-color: rgb(56, 53, 53);
+}
+
+.boton:hover{
+    border-color: var(--negro);
+    background-color: var(--blanco);
+    color: var(--negro);
+}
+
+.card-body, p{
+    color: var(--negro);
+}
+
+.logo_nav{
+    width: 90px;
+    margin-right: -10px;
+}
+
+.jumbo-img{
+    width: 200px;
+}
+
+.color{
+    background-color: var(--gris-card);
+}
+
+.container-front{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .55s ease-in-out;
+}
+
+.img-card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+}
+
+.card-bien{
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .55s ease-in-out;
+    padding: 10px;
+}
+
+.jumbo-link:hover{
+    text-decoration: none;
+}

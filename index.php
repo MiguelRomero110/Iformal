@@ -14,4 +14,3 @@
 <?php
     get_footer();
 ?>
-      <i class="fab fa-instagram"></i>
