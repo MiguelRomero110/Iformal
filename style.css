@@ -1,76 +1,82 @@
 @charset "UTF-8";
 /*
-Theme Name: Examen
-Theme URI: https://wordpress.org/themes/infobasic/
-Author: Miguel Romero
-Description: Tema wordpress infobasic de 2021, con el que aprendere a crear mis propios temas. A partit de WordPress 4.9.6
+Theme Name: iformal
+Theme URI: https://wordpress.org/themes/iformal/
+Author: Miguel Romero y Rober Fernández
+Description: Tema wordpress iformal de 2022
 Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 2.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: infobasic
+Text Domain: iformal
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+
 :root{
-    --main-color:rgb(226, 112, 5);
-    --background-body:rgb(243, 182, 124);
-    --text-color:rgb(53, 19, 4);
-    --text-color-active:rgb(141, 70, 40);
-    --text-color-hover:rgb(247, 161, 82);
-    --background-color-hover:rgb(39, 13, 1);
-    --text-light-color:rgb(247,161,82); 
+    --negro:rgb(0, 0, 0);
+    --blanco:rgb(255, 255, 255);
+    --amarillo:rgb(255, 255, 0);
+    --gris:#e9ecef;
+    --gris-card:#b5b5b5;
+    --letra: ;
 }
 
 body{
-    background-color: var(--background-body);
+    background-color: var(--gris);
+    font-family: 'Alegreya', serif;
 }
 
 .navbar{
-    background-color: var(--main-color);
+    background-color: var(--negro);
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: var(--text-color);
+    color: var(--blanco);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--amarillo);
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    color: var(--text-color-active);
+    color: var(--blanco);
 }
 
 .dropdown-menu{
-    background-color: var(--main-color);
+    background-color: var(--negro);
 }
 
 .dropdown-menu a:hover{
-    background-color: var(--text-color-hover);
+    background-color: var(--amarillo);
 }
 
 .jumbotron{
-    color: var(--text-light-color);
+    color: var(--negro);
     height: 400px;
 }
 
 .jumbo-tienda{
-    background-image: url(inc/img/logo_puta.png);
+    background-image: url(inc/img/logo1.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .jumbo-jeans{
-    background-image: url(inc/img/logo_puta_2.png);
+    background-image: url(inc/img/logo2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jumbo-samarreta{
-    background-image: url(inc/img/logo_puta_2.png);
+    background-image: url(inc/img/logo2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.jumbo-font{
-    background-image: url(inc/img/logo_puta.png);
+.jumbo-front{
+    background-image: url(inc/img/logo1.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -80,13 +86,17 @@ body{
 }
 
 footer{
-    background-color: var(--main-color);
+    background-color: var(--negro);
     margin-top: 20px;
 } 
 
 .footer3 a{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--blanco);
+}
+.footer3 a:hover{
+    text-decoration: none;
+    color: var(--amarillo);
 }
 
 .footer3 ul{
@@ -95,6 +105,82 @@ footer{
 
 .footer6 a{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--blanco);
 }
 
+.footer6 a:hover{
+    text-decoration: none;
+    color: var(--amarillo);
+}
+
+h7{
+    color: var(--blanco);
+}
+
+p{
+    color: var(--blanco);
+}
+
+.container2{
+    margin-bottom: 25px;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.boton{
+    border-color: var(--negro);
+    background-color: rgb(56, 53, 53);
+}
+
+.boton:hover{
+    border-color: var(--negro);
+    background-color: var(--blanco);
+    color: var(--negro);
+}
+
+.card-body, p{
+    color: var(--negro);
+}
+
+.logo_nav{
+    width: 90px;
+    margin-right: -10px;
+}
+
+.jumbo-img{
+    width: 200px;
+}
+
+.color{
+    background-color: var(--gris-card);
+}
+
+.container-front{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .55s ease-in-out;
+}
+
+.img-card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+}
+
+.card-bien{
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .55s ease-in-out;
+    padding: 10px;
+}
+
+.jumbo-link:hover{
+    text-decoration: none;
+}
