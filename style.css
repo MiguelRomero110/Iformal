@@ -20,7 +20,6 @@ Text Domain: iformal
     --amarillo:rgb(255, 255, 0);
     --gris:#e9ecef;
     --gris-card:#b5b5b5;
-    --letra: ;
 }
 
 body{
@@ -44,12 +43,21 @@ body{
     color: var(--blanco);
 }
 
+.dropdown-item {
+    color: var(--blanco);
+}
+
+.dropdown-item:hover {
+    color: var(--amarillo);
+}
+
 .dropdown-menu{
     background-color: var(--negro);
+    border-radius: 10px;
 }
 
 .dropdown-menu a:hover{
-    background-color: var(--amarillo);
+    background-color: var(--negro);
 }
 
 .jumbotron{
@@ -119,6 +127,8 @@ h7{
 
 hr {
    width: 70%;
+   background-color: rgba(39, 37, 37, 0.1);
+   box-shadow: 10px;
 }
 
 p{
