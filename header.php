@@ -16,8 +16,7 @@
 
 <div class="cabecera">
 <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="/"></a>
-
+<a class="navbar-brand" href="/"> <img src="<?=get_theme_file_uri("/inc/img/logo2_blanco.png")?>" class="logo_nav"></a>
   <button class="navbar-toggler" 
           type="button" 
           data-toggle="collapse" 
