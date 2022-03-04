@@ -12,14 +12,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: iformal
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+
 :root{
     --negro:rgb(0, 0, 0);
     --blanco:rgb(255, 255, 255);
     --amarillo:rgb(255, 255, 0);
+    --gris:#e9ecef;
+    --gris-card:#b5b5b5;
 }
 
 body{
-    background-color: var(--blanco);
+    background-color: var(--gris);
+    font-family: 'Alegreya', serif;
 }
 
 .navbar{
@@ -38,18 +43,22 @@ body{
     color: var(--blanco);
 }
 
-.dropdown-menu{
-    background-color: var(--negro);
-}
-
-.dropdown-menu a:hover{
-    background-color: var(--amarillo);
-}
-
-.dropdown-menu a{
+.dropdown-item {
     color: var(--blanco);
 }
 
+.dropdown-item:hover {
+    color: var(--amarillo);
+}
+
+.dropdown-menu{
+    background-color: var(--negro);
+    border-radius: 10px;
+}
+
+.dropdown-menu a:hover{
+    background-color: var(--negro);
+}
 
 .jumbotron{
     color: var(--negro);
@@ -74,10 +83,14 @@ body{
     background-position: center;
 }
 
-.jumbo-font{
+.jumbo-front{
     background-image: url(inc/img/logo1.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.front-card{
+    margin-top: 15px;
 }
 
 .container img{
@@ -88,6 +101,10 @@ footer{
     background-color: var(--negro);
     margin-top: 20px;
 } 
+
+.footer3{
+    padding-left: 15px;
+}
 
 .footer3 a{
     text-decoration: none;
@@ -102,54 +119,24 @@ footer{
     list-style: none;
 }
 
-.footer6 a{
-    text-decoration: none;
-    color: var(--blanco);
-}
-
-.footer6 a:hover{
-    text-decoration: none;
-    color: var(--amarillo);
-}
-
 h7{
     color: var(--blanco);
 }
 
-.footer-p{
-    color: var(--blanco
-    );
+hr {
+   width: 70%;
+   background-color: rgba(39, 37, 37, 0.1);
+   box-shadow: 10px;
 }
 
-.card{
-    margin-top: 5px;
-}
-
-.container {
-    align-items: center;
-}
-
-.card-text{
-    color: var(--negro);
-}
-
-.card-img-top{
-    height: 261px;
-}
-
-.container2{
-    margin-bottom: 25px;
-}
-
-.centro{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
+p{
+    color: var(--blanco);
 }
 
 .boton{
     border-color: var(--negro);
     background-color: rgb(56, 53, 53);
+    border-radius: 10px;
 }
 
 .boton:hover{
@@ -175,12 +162,10 @@ h7{
     background-color: var(--gris-card);
 }
 
-.container-front{
-    width: 500px;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: all .55s ease-in-out;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-card{
@@ -191,16 +176,69 @@ h7{
     height: 400px;
 }
 
-.card-bien{
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: all .55s ease-in-out;
-    padding: 10px;
-}
-
 .jumbo-link:hover{
     text-decoration: none;
 }
 
-.sobre-nosotros{
-    width: 50%;
+.img-card-prod{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+input[type=number] {
+    width: 30px;
+    text-align: center;
+    margin-right: 5px;
+    outline: none;
+    border: 1px solid var(--negro);
+}
+
+/*Quita los botones del input number*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=button] {
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    color: var(--blanco);
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+.sobre-nosotros {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.promotores {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+
+.promotores, img {
+    width: 500px;
+}
+
+.promotores-p {
+    margin-top: 15px;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
 }
