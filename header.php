@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="inc/css/style.css">
+  <script src="http://socenrober.local/wp-content/themes/Iformal/inc/js/compra.js"></script>
   <?php wp_head();?>
   <title>Bienvenidos a iformal</title>
 </head>

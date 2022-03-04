@@ -6,10 +6,11 @@
     <img src="<?=get_theme_file_uri("/inc/img/logo2.png")?>" class="jumbo-img">
 </div>
 
+<hr>
+
 <div class="container-front">
-        <hr/>
     <div>
-        <div class="card" align="center">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
         <img src="<?=get_theme_file_uri("/inc/img/card-novedades.jpg")?>" class="card-img-top" alt="...">
             <div class="card-body color">
                 <h5 class="card-title">Novedades</h5>
@@ -19,10 +20,11 @@
          </div>
     </div>
 </div>
+
 <div class="container2">
     <div class="row">
-        <div class="col-md-4">
-            <div class="card card-bien">
+        <div class="col-md-4 front-card">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded">
                 <img src="<?=get_theme_file_uri("/inc/img/card-ropa.jpg")?>" class="card-img-top img-card" alt="...">
                 <div class="card-body color">
                     <h5 class="card-title">Tienda</h5>
@@ -31,8 +33,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card card-bien" align="center">
+
+        <div class="col-md-4 front-card">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded">
                 <img src="<?=get_theme_file_uri("/inc/img/promotor-juan.png")?>" class="card-img-top img-card" alt="...">
                 <div class="card-body color">
                     <h5 class="card-title">Promotores</h5>
@@ -41,8 +44,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card card-bien" align="right">
+
+        <div class="col-md-4 front-card">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded">
                 <img src="<?=get_theme_file_uri("inc/img/logo1.png")?>" class="card-img-top img-card" alt="...">
                 <div class="card-body color">
                     <h5 class="card-title">Sobre nosotros</h5>
@@ -51,9 +55,9 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
+
 <?php
     get_footer();
 ?>
